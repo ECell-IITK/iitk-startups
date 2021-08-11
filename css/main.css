@@ -1558,7 +1558,7 @@
    width: 100%;
    height: 100%;
    background-color: #151515;
-   background-image: url(../images/ecell-bg.png);
+   background-image: url(../images/Bg.png);
    background-repeat: no-repeat;
    background-position: center 30%;
    -webkit-background-size: cover;
@@ -1585,7 +1585,7 @@
    width: 100%;
    height: 100%;
    background-color: #151515;
-   background-image: url(../images/ecell-bg.png);
+   background-image: url(../images/Bg.png);
    background-repeat: no-repeat;
    background-position: center 30%;
    -webkit-background-size: cover;
@@ -1976,8 +1976,8 @@
   *
   * ------------------------------------------------------------------- */
  #services {
-   background-color: #e6a800;
-   background-image: url(../images/services-bg.jpg);
+   background-color: white;
+   /* background-image: url(../images/services-bg.jpg); */
    background-repeat: no-repeat;
    background-position: center;
    -webkit-background-size: cover;
@@ -1988,7 +1988,7 @@
    padding: 15rem 0 15rem;
    color: rgba(255, 255, 255, 0.3);
  }
- #services .overlay {
+ /* #services .overlay {
    position: absolute;
    top: 0;
    left: 0;
@@ -2019,12 +2019,12 @@
      transparent 100%
    );
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
- }
+ } */
  #services .section-intro h3 {
    color: rgba(242, 242, 242, 0.5);
  }
  #services .section-intro h1 {
-   color: #ffffff;
+   color: black;
  }
  #services .section-intro .lead {
    text-align: justify;
@@ -2032,18 +2032,29 @@
  }
  #services .services-content {
    text-align: center;
-   max-width: 1040px;
+   max-width: 1200px;
  }
  #services .services-list {
    margin-top: 1.2rem;
    text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /* width: 240px; */
  }
  #services .services-list .service-item {
+   padding: 0 10px;
+   border-color: #eeeeee;
+   border: 5px solid;
+   border-radius: 16px;
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+   margin: 2px;
    margin-bottom: 3rem;
-   padding: 0 50px;
+   width: 22%;
  }
  #services .services-list .service-item p {
-   color: rgba(242, 242, 242, 0.5);
+   color: black;
  }
  #services .services-list .icon {
    display: inline-block;
@@ -2056,12 +2067,12 @@
  #services .services-list .h05 {
    font-size: 1.7rem;
    line-height: 1.765;
-   color: #ffffff;
+   color: black;
    margin-bottom: 3rem;
  }
 
  #services .events-desc {
-   text-align: justify;
+   text-align: left;
  }
 
  /* -------------------------------------------------------------------
