@@ -2082,11 +2082,13 @@
  @media only screen and (max-width: 1024px) {
    #services .services-list .service-item {
      padding: 0 35px;
+     width: 40%;
    }
  }
  @media only screen and (max-width: 900px) {
    #services .services-list .service-item {
      padding: 0 30px;
+     width: 80%;
    }
  }
  @media only screen and (max-width: 768px) {
@@ -2098,6 +2100,7 @@
    }
    #services .services-list .service-item {
      padding: 0 15px;
+     width: 80%;
    }
    #services .services-list .icon i {
      font-size: 5.1rem;
@@ -2106,6 +2109,7 @@
  @media only screen and (max-width: 600px) {
    #services .services-list .service-item {
      padding: 0 10px;
+     width: 80%;
    }
    #services .services-list .icon i {
      font-size: 5rem;
@@ -2114,6 +2118,7 @@
  @media only screen and (max-width: 400px) {
    #services .services-list .service-item {
      padding: 0;
+     width: 80%;
    }
  }
 
