@@ -59,7 +59,6 @@
 
  body {
    background: #111111;
-   font-family: "librebaskerville-regular", serif;
    font-size: 1.6rem;
    line-height: 3rem;
    color: #353535;
@@ -204,7 +203,7 @@
 
  strong,
  b {
-   font-family: "librebaskerville-bold", serif;
+   font-family: "montserrat-bold", serif;
  }
 
  small {
@@ -590,7 +589,6 @@
    display: block;
    height: 6rem;
    padding: 1.5rem 2rem;
-   border: 0;
    outline: none;
    vertical-align: middle;
    color: #444444;
@@ -1180,7 +1178,7 @@
    margin-bottom: 1.5rem;
  }
  .section-intro h1 {
-   font-family: "librebaskerville-bold", serif;
+   font-family: "montserrat-regular", serif;
    font-size: 4.8rem;
    line-height: 1.375;
    color: #151515;
@@ -1988,6 +1986,7 @@
    padding: 15rem 0 15rem;
    color: rgba(255, 255, 255, 0.3);
  }
+
  /* #services .overlay {
    position: absolute;
    top: 0;
@@ -2065,14 +2064,16 @@
    color: #f9a828;
  }
  #services .services-list .h05 {
-   font-size: 1.7rem;
+   font-size: 2rem;
    line-height: 1.765;
+   text-align: left;
    color: black;
-   margin-bottom: 3rem;
+   margin-bottom: auto;
  }
 
  #services .events-desc {
    text-align: left;
+   margin-bottom: 10px;
  }
 
  /* -------------------------------------------------------------------
@@ -2964,7 +2965,7 @@
    content: "";
    width: 100px;
    height: 1px;
-   background-color: rgba(255, 255, 255, 0.1);
+   background-color: #f9a828;
    position: absolute;
    bottom: 0;
    left: 0;
@@ -3005,6 +3006,8 @@
    margin-bottom: 1.5rem;
    width: 100%;
    background-color: rgba(0, 0, 0, 0.9);
+   border-color: #f9a828;
+   border-radius: 8px;
  }
  .footer-main #mc-form button {
    background-color: #f9a828;
@@ -3017,6 +3020,8 @@
    position: absolute;
    right: 0;
    top: 0;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
  }
  .footer-main #mc-form button:hover {
    background-color: #f89e0f;
@@ -3043,6 +3048,7 @@
  }
  .footer-bottom .copyright span {
    display: inline-block;
+   padding-bottom: 10px;
  }
  .footer-bottom .copyright span::after {
    content: "|";
