@@ -1975,7 +1975,7 @@
   *
   * ------------------------------------------------------------------- */
  #services {
-   background-color: white;
+   background-color: black;
    /* background-image: url(../images/services-bg.jpg); */
    background-repeat: no-repeat;
    background-position: center;
@@ -2024,7 +2024,7 @@
    color: rgba(242, 242, 242, 0.5);
  }
  #services .section-intro h1 {
-   color: black;
+   color: white;
  }
  /* #services .section-intro .lead {
    text-align: justify;
@@ -2048,6 +2048,7 @@
  }
  #services .services-list .service-item {
    padding: 0 10px;
+   background-color: white;
    border-color: #eeeeee;
    border: 5px solid;
    border-radius: 16px;
