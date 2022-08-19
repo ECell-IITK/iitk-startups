@@ -3523,6 +3523,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   display: table;
   content: "";
   line-height: 0;
+  width:0;
 }
 
 .group:after {

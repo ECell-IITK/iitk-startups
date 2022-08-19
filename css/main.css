@@ -3205,3 +3205,7 @@
    color: white;
    font-size: xx-large;
  }
+
+.services-list img {
+  object-fit: contain !important;
+}
